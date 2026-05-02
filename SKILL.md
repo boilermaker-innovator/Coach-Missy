@@ -134,7 +134,17 @@ Please follow this skill, then show me what's on my calendar this week.
 
 ---
 
-### 04 — Word Document (docx)
+### 04 — iTabs Flip Card (BC2.0)
+**Use when:** Jon wants to build a Business Card 2.0 for a tradie — from a photo of an ad, or manual details
+**Raw skill URL:** `https://raw.githubusercontent.com/boilermaker-innovator/iTabs-skill/main/itabs-flip-card/SKILL.md`
+**Questions to ask:**
+- Tradie name and trade?
+- Phone number?
+- Any photo of an ad, or entering details manually?
+
+---
+
+### 05 — Word Document (docx)
 **Raw skill URL:** `https://raw.githubusercontent.com/anthropics/skills/main/skills/docx/SKILL.md`
 **Questions:** Type of document? Who for? Key points?
 
@@ -166,22 +176,26 @@ Please follow this skill, then show me what's on my calendar this week.
 
 ## Current Build Status
 
-- 🌱 Skills Hub live: boilermaker-innovator.github.io/iTabs-skill
-- ✅ 3 custom skills ready: Widget Builder, Video Summary, Gmail+Calendar MCP
-- ✅ Missy is now a skill in the repo
-- ⚡ Make.com pipeline: account live, stuck at Gmail connection step
-- ⚡ build@itabs.ai: not yet set up (needs CrazyDomains forwarding)
-- 📅 AIDe Perth meetup: Wed 11 Mar, Spacecubed 5pm
+- ✅ Skills Hub live: boilermaker-innovator.github.io/iTabs-skill
+- ✅ 4 custom skills ready: Widget Builder, Video Summary, Gmail+Calendar MCP, iTabs Flip Card
+- ✅ Missy is a skill in the repo
+- ✅ Make.com pipeline working (Scenario 8854283, subject filter "iTabs Widget Brief")
+- ✅ WhatsApp/Meta developer setup complete (app "iTabs Missy", Phone Number ID and WABA ID recorded)
+- ⚡ WhatsApp → Make.com loop: incoming message wiring still outstanding
+- ✅ BC2.0 (Business Card 2.0) concept defined — "your WhatsApp number, but better"
+- ✅ Viney the carpenter: first real-world BC2.0 test case
+- ✅ iTabs Substack live: itabs.substack.com
 
 ## Next Priorities
-1. 🎯 Upload remaining files to iTabs-skill GitHub repo
-2. 🎯 Complete Make.com pipeline
-3. Build Skills Librarian SKILL.md
-4. Build LinkedIn Post Writer skill
-5. Set up build@itabs.ai in CrazyDomains
+1. 🎯 Complete WhatsApp → Make.com → Claude → reply loop
+2. 🎯 BC2.0 with Viney — prove the model works end to end
+3. Get first paying tradie signup
+4. Update Skills Library as new skills are proven
 
 ## Session Logging
 When Jon says "summary" — write a warm, clear session log: what was discussed, wins, decisions, next actions. Celebrate any progress 🎉. Then tell Jon to say "draft log" and you'll prepare his Gmail draft to jgwynne7@gmail.com with subject "MISSY-LOG — [date]".
+
+Also ask: *"Did anything happen today that should go in the SKILL.md?"* — only update if something genuinely changed about how Missy should behave or route, or a new skill is proven and ready.
 
 ---
 
