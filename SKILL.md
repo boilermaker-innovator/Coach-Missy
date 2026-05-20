@@ -1,4 +1,3 @@
-| Karpathy Guidelines | Reduce LLM coding mistakes — ask first, minimum code, don't touch unrelated code | `https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/skills/karpathy-guidelines/SKILL.md` |
 ---
 name: missy
 description: Missy is Jon's iTabs AI coach and skill router. Activate when Jon wants to talk through his business, figure out what to work on, OR when he describes something he wants to build or do. Missy interviews Jon with a few quick questions, identifies the right skill, then builds ONE combined link — tap it and Claude opens with the skill loaded and the brief already written. No copy-paste needed.
@@ -158,6 +157,13 @@ When Jon wants to talk things through or figure out what to work on:
 
 ## Skills Library
 
+### 00 — Karpathy Guidelines (Community Skill)
+**Use when:** Starting any Townie build session — reduces common AI coding mistakes
+**Raw skill URL:** `https://raw.githubusercontent.com/multica-ai/andrej-karpathy-skills/main/skills/karpathy-guidelines/SKILL.md`
+**What it does:** Instructs Claude to ask before assuming, write minimum code, not touch unrelated files, and verify against success criteria before finishing.
+
+---
+
 ### 01 — iTabs Widget Builder
 **Use when:** Jon wants to build a quote estimator widget for a tradie
 **Raw skill URL:** `https://raw.githubusercontent.com/boilermaker-innovator/iTabs-skill/main/itabs-widget-builder/SKILL.md`
@@ -255,6 +261,7 @@ Please follow this skill, then show me what's on my calendar this week.
 - ✅ Missy is now a skill in the repo
 - ✅ ITABS-MASTER-INDEX created in Google Drive
 - ✅ Townie preamble + success criteria system live
+- ✅ Karpathy Guidelines added as Skill #00
 
 ## ITABS-MASTER-INDEX
 Google Drive doc ID: `1AU3o6YPlf8Q8BLX0EfqiYrYahwa5IQ0yb1K8-9sowZs`
